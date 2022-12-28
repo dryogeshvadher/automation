@@ -7,8 +7,9 @@ import io.cucumber.java.en.When;
 
 public class PostSteps {
     @Given("^User should be logged in and should be present on his wall$")
-    public void user_should_be_logged_in_and_should_be_present_on_his_wall() throws Throwable {
+    public void user_should_be_logged_in_and_should_be_present_on_his_wall()  {
         System.out.println("User should be logged in and should be present on his wall");
+        System.out.println("my name is yogesh");
 
     }
 
