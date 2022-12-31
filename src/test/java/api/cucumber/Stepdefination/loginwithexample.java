@@ -5,10 +5,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
 
 public class loginwithexample {
     public class MyStepDefinitions {
-//        private Webdriver driver;
+       private WebDriver driver;
 
         @Given("^username is on home page$")
         public void username_is_on_home_page() throws Throwable {
